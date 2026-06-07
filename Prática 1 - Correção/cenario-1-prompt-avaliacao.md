@@ -12,12 +12,12 @@
 
 Você vai precisar de 4 itens para cada avaliação:
 
-| Item | O que é | Onde encontrar |
-|------|---------|----------------|
-| **Skill Foundation** | Framework comum de avaliação (dimensões, escala, regras) | `skills-avaliacao/avaliacao-foundation.md` |
-| **Skill do Papel** | Critérios específicos para o seu papel e exercício | `skills-avaliacao/avaliacao-[papel].md` |
-| **Enunciado do Exercício** | A descrição completa do exercício (contexto, inputs, tarefa, critérios) | Copie a seção do exercício do cenário correspondente |
-| **Seu Entregável** | Tudo que você produziu: documentos, código, prints de conversas, histórico de iteração | Seus arquivos de trabalho |
+| Item                       | O que é                                                                                | Onde encontrar                                       |
+| -------------------------- | -------------------------------------------------------------------------------------- | ---------------------------------------------------- |
+| **Skill Foundation**       | Framework comum de avaliação (dimensões, escala, regras)                               | `skills-avaliacao/avaliacao-foundation.md`           |
+| **Skill do Papel**         | Critérios específicos para o seu papel e exercício                                     | `skills-avaliacao/avaliacao-[papel].md`              |
+| **Enunciado do Exercício** | A descrição completa do exercício (contexto, inputs, tarefa, critérios)                | Copie a seção do exercício do cenário correspondente |
+| **Seu Entregável**         | Tudo que você produziu: documentos, código, prints de conversas, histórico de iteração | Seus arquivos de trabalho                            |
 
 ### Passo 2 — Monte a conversa
 
@@ -36,13 +36,13 @@ Use o prompt da seção "Prompt para copiar" abaixo, preenchendo os campos entre
 ## Prompt para copiar
 
 ```
-Você é avaliador da Trilha de Certificação AI First da DGS (DB1 Global Software). 
+Você é avaliador da Trilha de Certificação AI First da DGS (DB1 Global Software).
 Sua tarefa é avaliar o entregável de um participante usando as skills de avaliação fornecidas.
 
 INFORMAÇÕES DO EXERCÍCIO:
-- Papel: [Delivery Manager / Product Specialist / Desenvolvedor / Tech Lead / QA]
+- Papel: Tech Lead
 - Cenário: 1 — Entendimento e Contexto
-- Exercício: [número e título, ex: "1.1 — Avaliação de viabilidade com fundamentos de IA"]
+- Exercício: Ir avaliando cada exercício para o papel em sequencia do que foi enunciado
 
 DOCUMENTOS FORNECIDOS:
 1. Skill de avaliação Foundation (framework comum)
@@ -112,7 +112,7 @@ Abaixo, um exemplo de como a conversa ficaria na prática. O participante (um QA
 [Participante cola ou anexa: avaliacao-qa.md]
 [Participante cola ou anexa: seção do exercício 1.2 do cenário-âncora 1]
 
-Você é avaliador da Trilha de Certificação AI First da DGS (DB1 Global Software). 
+Você é avaliador da Trilha de Certificação AI First da DGS (DB1 Global Software).
 Sua tarefa é avaliar o entregável de um participante usando as skills de avaliação fornecidas.
 
 INFORMAÇÕES DO EXERCÍCIO:
@@ -150,7 +150,7 @@ Você é avaliador da Trilha de Certificação AI First da DGS (DB1 Global Softw
 Vou fornecer os entregáveis de [N] participantes para o mesmo exercício.
 Avalie cada um separadamente usando as skills fornecidas.
 
-Ao final, gere uma tabela comparativa com os scores dos [N] participantes 
+Ao final, gere uma tabela comparativa com os scores dos [N] participantes
 e identifique padrões comuns (erros recorrentes, pontos fortes compartilhados).
 
 INFORMAÇÕES DO EXERCÍCIO:
@@ -189,7 +189,7 @@ Além da avaliação padrão nas 5 dimensões, inclua uma seção adicional:
 
 INFORMAÇÕES DO EXERCÍCIO:
 - Papel: [papel]
-- Cenário: [cenário]  
+- Cenário: [cenário]
 - Exercício: [número e título]
 
 [... restante do prompt padrão ...]
